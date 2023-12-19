@@ -27,7 +27,7 @@ for i in range (size+1) :
     pygame.draw.line(screen, white, (0, i * square_size), (width, i * square_size))
 
 pygame.display.update()
-
+pygame.time.wait(10000)
 
 
 
